@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #111;
+  }
+
+  .section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .filters button {
+    background: #eee;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .filters button.active, .filters button:hover {
+    background: #d50000;
+    color: white;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+
+  .car-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .car-price {
+    margin-top: 5px;
+    font-weight: 600;
+    color: #d50000;
+  }
+
+  .car-soles {
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  .maintenance {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #333;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .btn.red {
+    background: #d50000;
+    color: white;
+    border: none;
+  }
+
+  .btn.outline {
+    border: 2px solid #d50000;
+    background: transparent;
+    color: #d50000;
+  }
+
+  .btn.disabled {
+    background: #ccc;
+    cursor: default;
+    color: #444;
+    border: none;
+  }
+
+  .product-item {
+      margin: 10px; /* ajusta el margen segun sea necesario */
+      text-align: center; /* centra contenido */
+  }
+  .mega-area{
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-color: #F5F5F5;
+  }
+  
+  .dropdown-menu img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+  }
+  .dropdown-menu {
+      z-index: 1050; /* Ajusta según sea necesario */
+  }
+  
+  .icon{
+      font-size: 55px;
+  }
+  
+  .product-item {
+    text-align: center; /* centra el contenido */
+    margin-bottom: 20px; /* espacio uniforme entre elementos */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* permite que elementos bajen a nueva fila si no caben*/
+    gap: 0; /* elimina los espacios entre elementos */
+}
+
+.col-md-4 {
+    flex: 1 0 calc(100% / 4); /* cambia el divisor para controlar las columnas por fila */
+    max-width: calc(100% / 4); /* calcula columna para asi tener el ancho correcto */
+    box-sizing: border-box; /* border box */
+    margin: 0; 
+}
+  
+  .product-item {
+      margin: 0; /* elimina margenes  */
+      text-align: center; /* centra el contenido */
+  }
+  
+  .tools-item a.custom-link {
+      text-decoration: none; /* eliminar subrayado */
+      color: inherit;        /* usa color del elemento padre */
+    }
+    
+    .tools-item a.custom-link:hover {
+      color: #ff0000; /* color al pasar cursor */
+    }
+    body{
+      margin: 0;
+  }
+  .menu-area{
+      position: static;
+      
+  }

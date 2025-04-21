@@ -1,0 +1,107 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .top-bar {
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: flex-end;
+      background-color: #fff;
+    }
+
+    .logo-utp {
+      height: 50px;
+      object-fit: contain;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      animation: fadeIn 1s ease;
+    }
+
+    h1 {
+      color: #b71c1c;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      border-left: 6px solid #d32f2f;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #d32f2f;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      background-color: #d32f2f;
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s ease, transform 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #b71c1c;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #f8d7da;
+      font-size: 0.9rem;
+      color: #b71c1c;
+      margin-top: 3rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }

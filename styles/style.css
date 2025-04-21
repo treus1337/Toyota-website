@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+.menu-area{
+    position: static;
+    
+}
+.product-item {
+    margin: 10px; /* ajusta el margen segun sea necesario */
+    text-align: center; /* centra contenido */
+}
+.mega-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+.dropdown-menu img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dropdown-menu {
+    z-index: 1050; /* ajusta segun sea necesario */
+}
+
+.icon{
+    font-size: 55px;
+}
+
+.product-item {
+    text-align: center; /* centra contenido */
+    margin-bottom: 20px; /* espaciado entre elementos*/
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* permite que elementos bajen a nueva fila si no caben*/
+    gap: 0; /* elimina los espacios entre elementos */
+}
+
+.col-md-4 {
+    flex: 1 0 calc(100% / 4); /* cambia el divisor para controlar las columnas por fila */
+    max-width: calc(100% / 4); /* calcula columna para asi tener el ancho correcto */
+    box-sizing: border-box; /* border box */
+    margin: 0; 
+}
+
+.product-item {
+    margin: 0; /* elimina margenes  */
+    text-align: center; /* centra el contenido */
+}
+
+.tools-item a.custom-link {
+    text-decoration: none; /* eliminar subrayado */
+    color: inherit;        /* usa color del elemento padre */
+  }
+  
+  .tools-item a.custom-link:hover {
+    color: #ff0000; /* color al pasar cursor */
+  }
+
+  body {
+    background-color: #f8f9fa;
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  .custom-shape-divider-top-168157 {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+  }
+  .custom-shape-divider-top-168157 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .custom-shape-divider-top-168157 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .custom-shape-divider-top-168157 svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 100px;
+  }
+  
+  
+  

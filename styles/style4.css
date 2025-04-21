@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    background-color: #f9f9f9;
+    color: #111;
+  }
+
+  header {
+    background-color: #fbf8f9;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background: #f1f1f1;
+  }
+
+  .info {
+    padding: 1.5rem;
+  }
+
+  .info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  .info p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+
+  .price {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #d90429;
+  }
+
+  .detalle-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #003049;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid #003049;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .detalle-link:hover {
+    background-color: #003049;
+    color: white;
+  }
+  
+
+  .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: gold;
+    color: #111;
+    font-weight: bold;
+    padding: 0.4rem 0.7rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+  }
+
+  .product-item {
+    margin: 10px; /* ajusta el margen segun sea necesario */
+    text-align: center; /* centra contenido */
+}
+.mega-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+.dropdown-menu img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dropdown-menu {
+    z-index: 1050; /* ajusta según sea necesario */
+}
+
+.icon{
+    font-size: 55px;
+}
+
+.product-item {
+    text-align: center; /* centra el contenido */
+    margin-bottom: 20px; /* espacio uniforme entre elementos */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* permite que elementos bajen a nueva fila si no caben*/
+    gap: 0; /* elimina los espacios entre elementos */
+}
+
+.col-md-4 {
+    flex: 1 0 calc(100% / 4); /* cambia el divisor para controlar las columnas por fila */
+    max-width: calc(100% / 4); /* calcula columna para asi tener el ancho correcto */
+    box-sizing: border-box; /* border box */
+    margin: 0; 
+}
+
+.product-item {
+    margin: 0; /* elimina margenes  */
+    text-align: center; /* centra el contenido */
+}
+
+.tools-item a.custom-link {
+    text-decoration: none; /* eliminar subrayado */
+    color: inherit;        /* usa color del elemento padre */
+  }
+  
+  .tools-item a.custom-link:hover {
+    color: #ff0000; /* color al pasar cursor */
+  }
+  body{
+    margin: 0;
+}
+.menu-area{
+    position: static;
+    
+}

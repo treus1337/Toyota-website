@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  .top-bar {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fffdfd;
+  }
+
+  .logo-utp {
+    height: 50px;
+    object-fit: contain;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    animation: fadeIn 1.2s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .card {
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    border-left: 6px solid #b71c1c;
+  }
+
+  .card h2 {
+    color: #b71c1c;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  .card p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .integrante {
+    background: #fcecec;
+    padding: 1rem;
+    border-radius: 10px;
+    flex: 1 1 45%;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #f44336;
+  }
+
+  .btn-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .btn-back {
+    background-color: #fff;
+    color: #d32f2f;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+  }
+
+  .btn-back:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #a74b4b64;
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 3rem;
+  }
