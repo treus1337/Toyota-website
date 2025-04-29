@@ -2,12 +2,27 @@
     box-sizing: border-box;
   }
 
+  .navbar-nav .nav-link {
+    font-weight: normal;
+}
+.navbar-nav a {
+  font-weight: normal;
+}
+
+.nav-item .btn {
+  font-weight: normal;
+}
+
+
+
+
   body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     background: #f7f7f7;
     color: #111;
   }
+  
 
   .section {
     max-width: 1200px;
